@@ -1,0 +1,1 @@
+docker run --rm -t -v /Users/jwdaniel/Docker/geoserver-data:/opt/geoserver/data_dir --link jwdanielgis/postgres:postgis --name=geoserver -p 8080:8080 -e USERNAME=postgres -e PASS= -i jwdanielgis/geoserver 
